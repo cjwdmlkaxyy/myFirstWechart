@@ -1,0 +1,19 @@
+<!--pages/xiecheng/index/index.wxml-->
+<view class="row" style="background-color: {{item.bgColor}}"
+      wx:for="{{itemBeans}}" wx:key="{{index}}">
+  <view class="left">
+    <text>{{item.title}}</text>
+    <image class="left-img" lazy-load="{{true}}"
+           src="{{item.imgUrl}}"></image>
+  </view>
+  <view class="right">
+    <view class="right-t">
+      <view>{{item.items[0].title}}</view>
+      <view>{{item.items[1].title}}</view>
+    </view>
+    <view class="right-b">
+      <view>{{item.items[2].title}}</view>
+      <view>{{item.items[3].title}}</view>
+    </view>
+  </view>
+</view>
