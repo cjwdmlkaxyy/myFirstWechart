@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/xiecheng/login/login",
     "pages/xiecheng/index/index",
     "pages/index/index",
     "pages/logs/logs"
