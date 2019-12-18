@@ -1,0 +1,5 @@
+<scroll-view scroll-y="{{true}}" class="scroll-y">
+  <image src="../../../assets/img/img/userPic.jpg"></image>
+  <image src="../../../assets/img/img/scroll1.jpg"></image>
+  <image src="../../../assets/img/img/scroll2.jpg"></image>
+</scroll-view>

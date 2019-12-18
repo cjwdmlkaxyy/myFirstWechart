@@ -4,18 +4,21 @@
     <text>最美的不是下雨天是你</text>
     <text>四川成都</text>
   </view>
-  <view class="body">
-    <view>
-      <input type="text" placeholder="请输入用户名" placeholder-style="p-style"></input>
-      <image src="../../../assets/img/icons/user.png"></image>
+  <form bindsubmit="submitForm">
+    <view class="body">
+      <view>
+        <input type="text" name="username" placeholder="请输入用户名" placeholder-style="p-style"></input>
+        <image src="../../../assets/img/icons/user.png"></image>
+      </view>
+      <view>
+        <input password="{{true}}" name="psd" placeholder="请输入密码" placeholder-style="p-style"></input>
+        <image src="../../../assets/img/icons/psd.png"></image>
+      </view>
     </view>
-    <view>
-      <input password="{{true}}" placeholder="请输入密码" placeholder-style="p-style"></input>
-      <image src="../../../assets/img/icons/psd.png"></image>
+    <view class="footer">
+      <button class="login" size="mini" form-type="submit">登陆</button>
+      <button class="register" size="mini">注册</button>
     </view>
-  </view>
-  <view class="footer">
-    <button class="login" size="mini">登陆</button>
-    <button class="register" size="mini">注册</button>
-  </view>
+  </form>
+
 </view>

@@ -1,0 +1,7 @@
+/* pages/xiecheng/scroll/scroll.wxss */
+.scroll-y {
+  height: 100%;
+}
+.scroll-y image {
+  margin: 0;
+}
